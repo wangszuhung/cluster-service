@@ -1,0 +1,11 @@
+[Unit]
+Description=frp client
+After=network.target
+
+[Service]
+Restart=always
+RestartSec=30s
+ExecStart="/home/<username>/cluster-service/frpClient/run.sh"
+
+[Install]
+WantedBy=default.target

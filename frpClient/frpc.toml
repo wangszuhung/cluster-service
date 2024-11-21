@@ -1,0 +1,16 @@
+serverAddr = "service.stockwind.win"
+serverPort = 
+
+[[proxies]]
+name = "ssh"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort =
+
+[[proxies]]
+name = "proxy"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8964
+remotePort =
