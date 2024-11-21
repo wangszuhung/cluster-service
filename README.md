@@ -1,6 +1,6 @@
 ## 1. Clone
 ```
-git clone https://github.com/wangszuhung/cluster-service.git ~/cluster-servic
+git clone https://github.com/wangszuhung/cluster-service.git ~/cluster-service
 ```
 ## 2. Install
 ```
