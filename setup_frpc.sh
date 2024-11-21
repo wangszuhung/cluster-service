@@ -14,7 +14,7 @@ fi
 cd "$FRP_DIR"
 
 sed -i "s|/home/<username>|$HOME|g" frp-client.service run.sh
-sudo chmod +x run.sh install_service.sh
+sudo chmod +x run.sh install-service.sh
 
 wget "$FRP_URL"
 tar -xvzf "$FRP_ARCHIVE"
