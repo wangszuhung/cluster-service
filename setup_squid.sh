@@ -11,6 +11,7 @@ cd "$SQUID_DIR"
 
 sudo apt update
 sudo apt install squid
+sudo apt-get install apache2-utils
 
 sudo cp ./squid.conf /etc/squid/squid.conf
 sudo systemctl restart squid
