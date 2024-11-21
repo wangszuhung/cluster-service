@@ -14,7 +14,7 @@ remotePort =           // 轉發到server的port
 name = "proxy"         // 連線名稱，可以自訂
 type = "tcp"
 localIP = "127.0.0.1"
-localPort = 8964       // 轉發本地的 ssh port
+localPort = 8964       // 轉發本地的 squid port
 remotePort =           // 轉發到server的port
 ```
 ## 更新frp-client的配置檔並重啟
