@@ -1,6 +1,6 @@
 ## 1. Clone
 ```
-sudo apt-get install git
+sudo apt-get install git -y
 git clone https://github.com/wangszuhung/cluster-service.git ~/cluster-service
 ```
 ## 2. Install
@@ -16,6 +16,8 @@ sudo htpasswd -c /etc/squid/passwd service
 ## 3. 調整配置檔
 - frpc配置檔[說明](./frpClient/README.md)
 	- 修改後	
+	serverPort = 
+	remotePort =
 ```
 sudo ./install-service.sh
 ```
