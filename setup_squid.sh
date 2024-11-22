@@ -10,9 +10,9 @@ fi
 cd "$SQUID_DIR"
 
 sudo apt update
-sudo apt install squid
+sudo apt install squid -y 
 # 安裝認證管理工具
-sudo apt-get install apache2-utils
+sudo apt-get install apache2-utils -y
 
 sudo cp ./squid.conf /etc/squid/squid.conf
 sudo systemctl restart squid
