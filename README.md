@@ -1,5 +1,6 @@
 ## 1. Clone
 ```
+sudo apt-get install git
 git clone https://github.com/wangszuhung/cluster-service.git ~/cluster-service
 ```
 ## 2. Install
