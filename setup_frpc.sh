@@ -3,6 +3,8 @@
 # 確定 FRP 版本
 FRP_VERSION="0.61.0"
 FRP_URL_BASE="https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}"
+# https://github.com/fatedier/frp/releases/download/v0.61.0/frp_0.61.0_linux_arm.tar.gz
+# https://github.com/fatedier/frp/releases/download/v0.61.0/frp_0.61.0_linux_amd64.tar.gz
 
 # 動態偵測系統架構
 ARCHITECTURE=$(uname -m)

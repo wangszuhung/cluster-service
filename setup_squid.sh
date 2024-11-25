@@ -12,6 +12,7 @@ cd "$SQUID_DIR"
 sudo apt update
 sudo apt install squid -y 
 # 安裝認證管理工具
+sudo apt-get install htop -y
 sudo apt-get install apache2-utils -y
 sudo apt-get install vim -y
 
